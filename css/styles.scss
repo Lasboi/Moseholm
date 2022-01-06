@@ -64,6 +64,8 @@ a:active{
 	justify-content: end;
 	padding-right: 50px;
 	padding-top: 2px;
+	z-index: 4;
+	position: relative;
 }
 
 .navTopIcon{
@@ -86,6 +88,8 @@ a:active{
 	display: flex;
 	height: 92px;
 	padding-right: 50px;
+	z-index: 3;
+	position: relative;
 }
 
 .mainLogoWrapper{
@@ -102,7 +106,7 @@ a:active{
 .mainNavLink{
 	color: #333333;
 	font-size: 36px;
-	font-weight: 500;
+	font-weight: 600;
 	margin-top: 45px;
 	margin-left: auto;
 	padding-right: 10px;
@@ -113,17 +117,18 @@ a:active{
 // ** Hero **
 
 .heroWrapper{
-	position: absolute;
-	z-index: -1;
+	position: relative;
 	width: 100%;
-	top: 0px;
+	margin-top: -123px;
 	height: 836px;
+	z-index: 2;
 }
 
 .heroImage{
 	width: 100%;
 	height: 836px;
 	filter: brightness(0.8);
+	z-index: 1;
 }
 
 .heroHeadline{
@@ -166,4 +171,74 @@ a:active{
 
 .heroButton:hover #heroButtonText{
 	color: #333333;
+}
+
+// ** Headlines **
+
+.startHeadlineWrapper{
+	margin-top: 10px;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.startHeadlineText{
+	color: #333333;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.startHeadlineParagraph{
+	margin-top: 10px;
+	font-size: 1em;
+	line-height: 1.3em;
+	padding-bottom: 40px;
+}
+
+// ** Salgspunkter **
+.valuePointsWrapper{
+	width: 100%;
+	height: 350px;
+	background-color: rgba(51, 51, 51, 0.1);
+}
+
+.valuePointsHeader{
+	text-align: center;
+	font-size: 2em;
+	font-weight: 600;
+	color: #333333;
+	padding-top: 30px;
+}
+
+.valueIconsWrap{
+	display: flex;
+	flex-direction: row;
+	margin-left: 10%;
+	margin-right: 10%;
+	justify-content: space-evenly;
+	margin-top: 60px;
+	padding-bottom: 100px;
+}
+
+.valueContent{
+	width: 15%;
+	margin-left: -80px;
+	margin-top: 30px;
+}
+
+.valueHeadline{
+	font-weight: 600;
+	font-size: 1.7em;
+	padding-bottom: 10px;
+}
+
+.valueParagraph{
+	line-height: 1.3em;
+	font-size: 1em;
+}
+
+// ** Text Content **
+.textContentWrap{
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 100%;
 }
