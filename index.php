@@ -37,7 +37,7 @@
 </div>
 
 <div class="valuePointsWrapper">
-    <h2 class="valuePointsHeader">Hvorfor vælge Moseholm?</h2>
+    <h2 class="centeredHeader">Hvorfor vælge Moseholm?</h2>
     <div class="valueIconsWrap">
         <div class="valueItem">
             <img src="images/salgspointe.png" alt="Salgspointe Moseholm" class="valueImage">
@@ -81,6 +81,8 @@
         </p>
     </div>
 </div>
+
+<?php include 'visit.php';?>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>

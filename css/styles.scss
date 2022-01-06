@@ -202,7 +202,7 @@ a:active{
 	margin-bottom: 20px;
 }
 
-.valuePointsHeader{
+.centeredHeader{
 	text-align: center;
 	font-size: 2em;
 	font-weight: 600;
@@ -271,3 +271,50 @@ a:active{
 	font-weight: 600;
 }
 
+// ** Visit Moseholm **
+.visitContentWrapper{
+	margin-top: 40px;
+	width: 100%;
+	height: 600px;
+	background-color: rgba(51, 51, 51, 0.1);
+}
+
+.visitHeaderWrap{
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.visitHeaderText{
+	margin-top: 60px;
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: 600;
+	width: 50%;
+}
+
+.visitContentWrap{
+	margin-top: 40px;
+	margin-right: 10%;
+	margin-left: 10%;
+	display: flex;
+}
+
+.visitTimes{
+	width: 50%;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.visitTimes p{
+	margin-top: 20px;
+	font-size: 1.3em;
+}
+
+.visitImage{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
