@@ -65,6 +65,21 @@
 
 <div class="textContentWrap">
 
+    <h2 class="startHeadlineText">Moseholm Klik & Hent</h2>
+    <div class="textContentFlex">
+        <p class="textContent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Vestibulum eu sapien tortor. Integer eu massa commodo, lobortis mauris eget,<br> sagittis lorem. Nam quis efficitur leo. Sed accumsan id eros eget sollicitudin. Praesent imperdiet a eros et condimentum.<br> Fusce tempus efficitur posuere. Nunc hendrerit ligula eu mi posuere, eu elementum justo consequat.<br> Proin dui massa, auctor ac tincidunt vel, maximus vel nisl. Nam dictum libero leo, quis maximus metus pretium nec.<br> Curabitur efficitur elit eget lacus pretium cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu sapien tortor.<br> Integer eu massa
+        </p>
+        <img src="images/friske-varer.png" alt="Friske grøntsager" class="textContentImage">
+    </div>
+
+    <h2 class="startHeadlineTextRight">Dyrevelfærd på Moseholm</h2>
+    <div class="textContentFlex">
+        <img src="images/glade-faar.png" alt="Dyrevelfærd" class="textContentImage">
+        <p class="textContent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> Vestibulum eu sapien tortor. Integer eu massa commodo, lobortis mauris eget,<br> sagittis lorem. Nam quis efficitur leo. Sed accumsan id eros eget sollicitudin. Praesent imperdiet a eros et condimentum.<br> Fusce tempus efficitur posuere. Nunc hendrerit ligula eu mi posuere, eu elementum justo consequat.<br> Proin dui massa, auctor ac tincidunt vel, maximus vel nisl. Nam dictum libero leo, quis maximus metus pretium nec.<br> Curabitur efficitur elit eget lacus pretium cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu sapien tortor.<br> Integer eu massa
+        </p>
+    </div>
 </div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
