@@ -48,6 +48,11 @@ a:hover {
 	text-decoration: none;
 }
 
+a:active{
+	color: #ffffff;
+	text-decoration: none;
+}
+
 
 
 // ** Top navigation **
@@ -74,10 +79,91 @@ a:hover {
 	font-size: 18px;
 }
 
-.navMobile{
-
+// ** Main navigation **
+.mainNav{
+	margin-top: 1px;
+	background: linear-gradient(rgba(199, 178, 153, 1), rgba(199, 178, 153, 0.3));
+	display: flex;
+	height: 92px;
+	padding-right: 50px;
 }
 
-.navEmail{
+.mainLogoWrapper{
+	margin-top: 20px;
+	margin-left: 75px;
+	justify-content: start;
+}
 
+.mainLogo{
+	height: 66px;
+	width: 283px;
+}
+
+.mainNavLink{
+	color: #333333;
+	font-size: 36px;
+	font-weight: 500;
+	margin-top: 45px;
+	margin-left: auto;
+	padding-right: 10px;
+	display: flex;
+	gap: 30px;
+}
+
+// ** Hero **
+
+.heroWrapper{
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	top: 0px;
+	height: 836px;
+}
+
+.heroImage{
+	width: 100%;
+	height: 836px;
+	filter: brightness(0.8);
+}
+
+.heroHeadline{
+	position: absolute;
+	left:50%;
+	top:40%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	font-size: 72px;
+	font-weight: 600;
+	text-shadow: 0 0 20px rgba(0,0,0,1);
+}
+
+.heroButton{
+	background-color: #4CAF50;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+	position: absolute;
+	left:50%;
+	top:55%;
+	transform: translate(-50%, -50%);
+}
+
+.heroButton p{
+	color: white;
+	font-weight: 600;
+	font-size: 36px;
+}
+
+.heroButton:hover{
+	background-color: #C7B299;
+}
+
+.heroButton:hover #heroButtonText{
+	color: #333333;
 }
