@@ -78,7 +78,7 @@ a:active{
 	padding-right: 10px;
 	padding-left: 10px;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 1.1em;
 }
 
 // ** Main navigation **
@@ -137,7 +137,7 @@ a:active{
 	top:40%;
 	transform: translate(-50%, -50%);
 	color: #ffffff;
-	font-size: 72px;
+	font-size: 3.6em;
 	font-weight: 600;
 	text-shadow: 0 0 20px rgba(0,0,0,1);
 }
@@ -149,7 +149,6 @@ a:active{
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
 	margin: 4px 2px;
 	cursor: pointer;
 	border-radius: 12px;
@@ -162,7 +161,7 @@ a:active{
 .heroButton p{
 	color: white;
 	font-weight: 600;
-	font-size: 36px;
+	font-size: 2em;
 }
 
 .heroButton:hover{
@@ -171,6 +170,17 @@ a:active{
 
 .heroButton:hover #heroButtonText{
 	color: #333333;
+}
+
+.heroSecondLine{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	font-size: 2.5em;
+	font-weight: 600;
+	text-shadow: 0 0 20px rgba(0,0,0,1);
 }
 
 // ** Headlines **
@@ -197,9 +207,10 @@ a:active{
 // ** Salgspunkter **
 .valuePointsWrapper{
 	width: 100%;
-	height: 350px;
+	height: auto;
 	background-color: rgba(51, 51, 51, 0.1);
 	margin-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 .centeredHeader{
@@ -221,7 +232,6 @@ a:active{
 
 .valueContent{
 	width: 15%;
-	margin-left: -80px;
 	margin-top: 30px;
 }
 
@@ -242,9 +252,12 @@ a:active{
 	margin-left: 10%;
 }
 
-.startHeadlineText{
-	font-size: 1.7em;
+.startHeadlineTextContent{
+	color: #333333;
+	font-size: 2em;
 	font-weight: 600;
+	padding-bottom: 20px;
+	margin-top: 20px;
 }
 
 .textContentFlex{
@@ -253,8 +266,14 @@ a:active{
 	margin-top: 20px;
 }
 
+.textContentFlexReverse{
+	display: flex;
+	gap: 10%;
+	margin-top: 20px;
+}
+
 .textContent{
-	width: 45%;
+	width: 100%;
 	color: #333333;
 	font-size: 1.1em;
 }
@@ -262,20 +281,14 @@ a:active{
 .textContentImage{
 	width: 45%;
 	max-height: 449px;
-}
-
-.startHeadlineTextRight{
-	margin-top: 60px;
-	margin-left: 55%;
-	font-size: 1.7em;
-	font-weight: 600;
+	margin-top: 20px;
 }
 
 // ** Visit Moseholm **
 .visitContentWrapper{
 	margin-top: 40px;
 	width: 100%;
-	height: 600px;
+	height: auto;
 	background-color: rgba(51, 51, 51, 0.1);
 }
 
@@ -317,4 +330,315 @@ a:active{
 	width: 50%;
 	margin-left: auto;
 	margin-right: auto;
+	padding-bottom: 80px;
 }
+
+// ** Footer **
+.footerWrapper{
+	background-color: #333333;
+	width: auto;
+	height: auto;
+}
+
+.footerLogoWrapper{
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+	margin: auto;
+	gap: 10px;
+}
+
+.footerControlImage{
+	width: 271px;
+	height: 88px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.footerLogo{
+	height: 110px;
+	width: 110px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footerHeadline{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+.footerLink{
+	font-size: 1.3em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footerContact{
+	font-size: 1.4em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footerIcon{
+	padding-right: 10px;
+}
+
+//** Hvad der skal vises og skjules på desktop **
+.desktopShow{
+	display: inline;
+}
+
+.mobileShow{
+	display: none;
+}
+
+// ** Sales **
+.saleButtonWrapper{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.productButton{
+	background-color: #4CAF50;
+	border: none;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 12px;
+	color: #ffffff;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+.productButton:hover{
+	background-color: #C7B299;
+	color: #333333;
+}
+
+.selectItem{
+	width: 210px;
+	margin-left: 80%;
+	border-radius: 50px;
+	border-color: #333333;
+}
+
+.productContentWrapper{
+	padding-top: 40px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.cardTitleText{
+	font-size: 1.4em;
+}
+
+.cardPrice{
+	font-weight: bold;
+}
+
+.countButton{
+	color: #4CAF50;
+	background-color: #ffffff;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-right: 5px;
+	padding-left: 5px;
+	font-weight: 600;
+	font-size: 1.5em;
+	width: 40px;
+	height: 40px;
+	border: 2px solid #333333;
+}
+
+.countWrapper{
+	display: flex;
+	width: 125px;
+	margin-right: auto;
+	margin-left: auto;
+	gap: 1px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.countText{
+	width: 40px;
+	text-align: center;
+	height: 40px;
+	border: 2px solid #333333;
+}
+
+.card-body{
+	background-color: rgba(51, 51, 51, 0.1);
+}
+
+.basketIcon{
+	padding-right: 10px;
+}
+
+.basketButton{
+	text-align: center;
+}
+
+// ** Mobil Breakpoint **
+@media screen and (max-width: 650px) {
+
+	//** Hvad der skal vises og skjules på mobil **
+	.desktopShow{
+		display: none;
+	}
+	.mobileShow{
+		display: inline;
+	}
+
+	// ** Visit Mobil
+	.visitHeaderText{
+		text-align: center;
+		width: 100%;
+	}
+
+	.visitImage{
+		width: 80%;
+		height: auto;
+	}
+
+	// ** Text content Mobil **
+	.textContentFlex{
+		flex-direction: column;
+	}
+
+	.textContentFlexReverse{
+		flex-direction: column-reverse;
+	}
+
+	.startHeadlineTextContent{
+		font-size: 1.5em;
+	}
+
+	.textContent{
+		font-size: 0.9em;
+	}
+
+	.textContentImage{
+		width: 100%;
+		height: auto;
+		padding-top: 20px;
+	}
+
+	// ** Value Icons Mobil **
+	.valueIconsWrap{
+		flex-direction: column;
+	}
+
+	.valueContent{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.mobileValue{
+		display: flex;
+		align-items: center;
+	}
+
+	.valueImage{
+		max-height: 175px;
+		width: 25%;
+		padding-left: 10%;
+	}
+
+	.valueContent{
+		width: 65%;
+	}
+
+	// ** Hero Mobil **
+	.heroImage{
+		height: 500px;
+		object-fit: cover;
+		object-position: -100px;
+	}
+
+	.heroHeadline{
+		top: 50%;
+	}
+
+	.heroButton p{
+		font-size: 1.2em;
+	}
+
+	.heroButton{
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		margin: 0px 0px;
+		cursor: pointer;
+		border-radius: 12px;
+		position: absolute;
+		left:50%;
+		top:80%;
+		transform: translate(-50%, -50%);
+	}
+
+	.heroWrapper{
+		height: auto;
+	}
+
+	// ** Upper Navigation **
+	.upperNav{
+		justify-content: center;
+	}
+
+	.navTopText{
+		font-size: 0.9em;
+	}
+
+	// ** Main Navigation **
+
+	.mobileNav {
+		overflow: hidden;
+		background-color: #C7B299;
+		position: relative;
+		z-index: 3;
+	}
+
+	.mobileNav #mobileLinks {
+		display: none;
+	}
+
+	.mobileNav a {
+		color: #333333;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size: 1.5em;
+		display: block;
+		font-weight: 600;
+		text-align: center;
+		z-index: 3;
+	}
+
+	.mobileNav a.icon {
+		color: #333333;
+		display: block;
+		position: absolute;
+		right: 5%;
+		top: 10px;
+		font-size: 2em;
+		z-index: 3;
+	}
+
+	.mobileNavImage{
+		height: auto;
+		width: 250px;
+	}
+
+}
+
+
+
