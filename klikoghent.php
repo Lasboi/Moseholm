@@ -14,13 +14,6 @@
     <meta property="og:url" content="https://las-designs.dk/moseholm/klikoghent.php">
     <meta property="og:image" content="https://las-designs.dk/moseholm/images/friske-varer.png">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@MoseholmDK">
-    <meta name="twitter:title" content="Moseholm Webshop - Altid friske produkter klar til afhentning">
-    <meta name="twitter:description" content="I vores webshop kan du få en lang række nye lækre friske produkter som pakkes til dig når du bestiller. Du kan afhente dine produkter 2 timer efter de er bestilt, nemt og hurtigt.">
-    <meta name="twitter:image" content="https://las-designs.dk/moseholm/images/friske-varer.png">
-
     <!-- Sætter vores favicon -->
     <link rel="icon" type="image/x-icon" href="images/moseholm_favicon.ico">
 

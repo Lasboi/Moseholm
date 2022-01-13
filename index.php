@@ -14,13 +14,6 @@
     <meta property="og:url" content="https://las-designs.dk/moseholm/">
     <meta property="og:image" content="https://las-designs.dk/moseholm/images/friske-varer.png">
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@MoseholmDK">
-    <meta name="twitter:title" content="Moseholm Gårdbutik - Fokus på dyrevelfærd">
-    <meta name="twitter:description" content="På vores gårdbutik kan du få et stort udvalg af økologisk kød, mejeri, korn og naturprodukter. Kom forbi vores gårdbutik i dag og få friske håndplukkede produkter med hjem.">
-    <meta name="twitter:image" content="https://las-designs.dk/moseholm/images/friske-varer.png">
-
     <!-- Sætter vores favicon -->
     <link rel="icon" type="image/x-icon" href="images/moseholm_favicon.ico">
 
