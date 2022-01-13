@@ -1,4 +1,6 @@
 <?php
+
+//Navigation modul som kan importeres til php sider
 echo'
 <nav>
     <div class="desktopShow">
@@ -13,13 +15,13 @@ echo'
     
         <div class="mainNav">
             <div class="mainLogoWrapper">
-                <a href="index.html"><img src="images/moseholm_Logo.png" class="mainLogo" alt="Moseholm Logo"></a>
+                <a href="index.php"><img src="images/moseholm_Logo.png" class="mainLogo" alt="Moseholm Logo"></a>
             </div>
             <div class="mainNavLink">
-                <a href="index.html">Klik&Hent</a>
-                <a href="index.html">Gårdbutikken</a>
-                <a href="index.html">Om Moseholm</a>
-                <a href="index.html">Kontakt os</a>
+                <a href="klikoghent.php">Klik&Hent</a>
+                <a href="index.php">Gårdbutikken</a>
+                <a href="index.php">Om Moseholm</a>
+                <a href="index.php">Kontakt os</a>
             </div>
         </div>
     </div>
@@ -37,7 +39,7 @@ echo'
         <div class="mobileNav">
             <a href="index.php"><img src="images/moseholm_Logo.png" alt="Moseholm Logo" class="mobileNavImage"></a>
             <div id="mobileLinks">
-                <a href="index.php">Klik&Hent</a>
+                <a href="klikoghent.php">Klik&Hent</a>
                 <a href="index.php">Gårdbutikken</a>
                 <a href="index.php">Om Moseholm</a>
                 <a href="index.php">Kontakt os</a>

@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	font-family: 'Montserrat';
+	font-family: 'Montserrat', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -327,7 +327,7 @@ a:active{
 }
 
 .visitImage{
-	width: 50%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-bottom: 80px;
@@ -386,6 +386,22 @@ a:active{
 	padding-right: 10px;
 }
 
+.footerFlexWrap{
+	display: flex;
+}
+
+.footerContentWrapper{
+	width: 33%;
+}
+
+.footerSocialFlex{
+	display: flex;
+	width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	gap: 10px;
+}
+
 //** Hvad der skal vises og skjules på desktop **
 .desktopShow{
 	display: inline;
@@ -397,10 +413,7 @@ a:active{
 
 // ** Sales **
 .saleButtonWrapper{
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin: 40px 10% 40px 10%;
 }
 
 .productButton{
@@ -447,10 +460,7 @@ a:active{
 .countButton{
 	color: #4CAF50;
 	background-color: #ffffff;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-right: 5px;
-	padding-left: 5px;
+	margin: 1px 5px 1px 5px;
 	font-weight: 600;
 	font-size: 1.5em;
 	width: 40px;
@@ -485,6 +495,187 @@ a:active{
 
 .basketButton{
 	text-align: center;
+}
+
+.nextPageButton{
+	height: 40px;
+	width: 40px;
+	background-color: #ffffff;
+	border: 1px solid #333333;
+}
+
+.nextPageButton p{
+	text-align: center;
+	color: #4CAF50;
+	font-weight: 600;
+	font-size: 1.5em;
+	padding-top: 2px;
+}
+
+.nextPageButton:hover{
+	background-color: #C7B299;
+	p{
+		color: #333333;
+	}
+}
+
+#nextPageActive{
+	background-color: #4CAF50;
+}
+
+#nextPageActive p{
+	color: #ffffff;
+}
+
+.nextPageWrapper{
+	padding-top: 20px;
+	padding-bottom: 10px;
+	display: flex;
+	gap: 2px;
+	justify-content: flex-end;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+// ** Produktside **
+.productInfoWrapper{
+	display: flex;
+	flex-direction: row;
+	gap: 5%;
+	margin: 40px 10% 40px 10%;
+}
+
+.productSection1
+{
+	width: 45%;
+}
+
+.productSection2
+{
+	width: 40%;
+}
+
+.productHeader{
+	font-size: 2.2em;
+	font-weight: 600;
+	padding-bottom: 20px;
+	color: #333333;
+}
+
+.productAmount{
+	font-size: 1.5em;
+	padding-bottom: 20px;
+	color: #333333;
+}
+
+.productText{
+	font-size: 1em;
+	color: #333333;
+}
+
+.productPrice{
+	text-align: center;
+	color: #4CAF50;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+// ** Kurv **
+
+.basketInfoWrapper{
+	padding-top: 20px;
+	background-color: rgba(51, 51, 51, 0.1);
+	padding-bottom: 10px;
+	margin: 40px 20% 40px 20%;
+}
+
+.basketFlexWrap{
+	display: flex;
+	gap: 10%;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.basketSection1{
+	width: 45%;
+}
+
+.basketSection2{
+	width: 45%;
+}
+
+.basketHeadline{
+	color: #333333;
+	font-size: 2em;
+	font-weight: 600;
+}
+
+.basketText{
+	font-size: 1.5em;
+	color: #333333;
+}
+
+.basketTotal{
+	font-size: 2em;
+	font-weight: 600;
+	color: #333333;
+	text-align: center;
+}
+
+.basketTotalAmount{
+	font-size: 1.8em;
+	font-weight: 600;
+	color: #4CAF50;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+// ** Betaling **
+
+.formWrapper{
+	margin: 40px 20% 40px 20%;
+}
+
+.formFlexWrapper{
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.input-group-text{
+	height: 40px;
+}
+
+// ** Bekræftelse **
+.centeredHeaderText{
+	text-align: center;
+	color: #333333;
+	font-weight: 600;
+	font-size: 1.6em;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.orderWrapper{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 40px;
+	background-color: rgba(51, 51, 51, 0.1);
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.orderText{
+	text-align: center;
+	font-size: 1.5em;
+	color: #333333;
+}
+
+.collectText{
+	text-align: center;
+	color: #333333;
+	font-size: 1.2em;
+	padding-bottom: 60px;
 }
 
 // ** Mobil Breakpoint **
@@ -577,7 +768,7 @@ a:active{
 		text-align: center;
 		text-decoration: none;
 		display: inline-block;
-		margin: 0px 0px;
+		margin: 0 0;
 		cursor: pointer;
 		border-radius: 12px;
 		position: absolute;
@@ -588,6 +779,13 @@ a:active{
 
 	.heroWrapper{
 		height: auto;
+	}
+
+	.heroSecondLine{
+		font-size: 1.4em;
+		width: 100%;
+		text-align: center;
+		top:70%;
 	}
 
 	// ** Upper Navigation **
@@ -638,6 +836,93 @@ a:active{
 		width: 250px;
 	}
 
+	//** Produkt **
+	.selectItem{
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.card
+	{
+		margin-bottom: 40px;
+	}
+
+	.productInfoWrapper{
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.productSection1
+	{
+		width: 100%;
+	}
+
+	.productSection2
+	{
+		width: 100%;
+	}
+
+	.productHeader{
+		text-align: center;
+		font-size: 1.6em;
+	}
+
+	.productAmount{
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+	.productText{
+		text-align: center;
+	}
+
+	.productImage{
+		padding-bottom: 40px;
+	}
+
+	.basketFlexWrap{
+		flex-direction: column-reverse;
+	}
+
+	.basketSection1{
+		width: 100%;
+	}
+
+	.basketSection2{
+		width: 100%;
+	}
+
+	.basketHeadline{
+		font-size: 1.5em;
+		text-align: center;
+	}
+
+	.basketText{
+		font-size: 1.2em;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	//** Form **
+	.formFlexWrapper{
+		flex-direction: column;
+	}
+
+	//** Footer **
+	.footerFlexWrap{
+		flex-direction: column;
+	}
+
+	.footerContentWrapper{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.footerSocialFlex{
+		flex-direction: column;
+		width: auto;
+	}
 }
 
 

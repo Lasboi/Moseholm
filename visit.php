@@ -1,3 +1,7 @@
+<?php
+
+//Visit modul som kan importeres til php sider
+echo '
 <div class="visitContentWrapper">
 
     <div class="desktopShow">
@@ -15,7 +19,9 @@
                 <p>Søndag<br>Lukket</p>
                 <p>Helligdage<br>Lukket</p>
             </div>
-            <img src="images/moseholm-kort.png" alt="Moseholm Adresse" class="visitImage">
+            <a href="https://goo.gl/maps/6oNiYcTkb5aeCtw29" target="_blank" rel="noopener">
+                <img src="images/moseholm-kort.png" alt="Moseholm Adresse" class="visitImage">
+            </a>
         </div>
     </div>
 
@@ -29,6 +35,9 @@
             <p>Helligdage<br>Lukket</p>
         </div>
         <h3 class="visitHeaderText">Adresse</h3>
-        <img src="images/moseholm-kort.png" alt="Moseholm Adresse" class="visitImage">
+        <a href="https://goo.gl/maps/6oNiYcTkb5aeCtw29" target="_blank" rel="noopener">
+            <img src="images/moseholm-kort.png" alt="Moseholm Adresse" class="visitImage">
+        </a>
     </div>
-</div>
+</div>'
+?>

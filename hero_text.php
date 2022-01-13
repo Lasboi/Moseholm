@@ -1,5 +1,6 @@
 <?php
 
+//Hero med tekst modul som kan importeres til php sider
 echo'
     
     <div class="heroWrapper">
